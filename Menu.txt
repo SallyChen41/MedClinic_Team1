@@ -1,0 +1,55 @@
+=============Medical Clinic Main Menu============
+1 Appointment
+2 Doctor
+3 Patient
+4 Treatment
+5 Payment
+6 Exit system
+Please choose one of above (1-6):
+==================================================
+
+
+====================Appointment===================
+1 Make an appointment
+2 Cancel an appointment
+3 Show all appointments
+4 Change an appointment
+5 Back to the main menu
+Please choose one of above (1-5):
+==================================================
+
+
+=======================Doctor=====================
+1 Add a doctor
+2 Delete a doctor
+3 Show doctors list
+4 Back to the main menu
+Please choose one of above (1-4):
+==================================================
+
+
+======================Patient=====================
+1 Add a patient
+2 Delete a patient
+3 Show patients list
+4 Back to the main menu
+Please choose one of above (1-4):
+==================================================
+
+
+=====================Treatment====================
+1 Add a treatment
+2 Delete a treatment
+3 Show treatments list
+4 Back to the main menu
+Please choose one of above (1-4):
+==================================================
+
+
+======================Payment=====================
+1 Add a payment
+2 Show all payments
+3 Back to main menu
+Please choose one of above (1-3):
+==================================================
+
