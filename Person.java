@@ -6,7 +6,7 @@ public abstract class Person {
     private final String address;
     private final String phone;
 
-    public Person(String name, String dateOfBirth, String address, String: phone) {
+    public Person(String name, String dateOfBirth, String address, String phone) {
         this.name = name;
         this.dateOfBirth = dateOfBirth;
         this.address = address;
@@ -24,11 +24,6 @@ public abstract class Person {
     }
     public String getPhone() {
         return phone;
-    }
-
-    @Override
-    public String toString() {
-        return String.format("%sName: %s%n, Date of Birth: ", getName(), getDateOfBirth());
     }
 
 }
