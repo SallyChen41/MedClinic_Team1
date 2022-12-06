@@ -1,20 +1,20 @@
 
-// Chihyin's first edit below
-// public class Doctor extends Person{
+public class Doctor extends Person{
 
-//     private String specialty;
+    private String specialty;
+    private String idNumber;
 
-//     public Doctor(String name, String dateOfBirth, String specialty) {
-//         super(name, dateOfBirth);
-//         this.specialty = specialty;
-//     }
+    public Doctor(String name, String dateOfBirth, String address, String phone, String specialty, String idNumber) {
+        super(name, dateOfBirth, address, phone);
+        this.specialty = specialty;
+        this.idNumber = idNumber;
+    }
     
-//     public String getSpecialty() {
-//         return specialty;
-//     }
+    public String getSpecialty() {
+        return specialty;
+    }
+    public String getIdNumber() {
+        return idNumber;
+    }
 
-//     @Override
-//     public String toString() {
-//         return ("Doctor " + super.toString() + ", Specialty: " + getSpecialty());
-//     }
-// }
+}
